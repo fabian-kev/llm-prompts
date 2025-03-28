@@ -6,7 +6,7 @@ public record Activity(UUID id, String name, String description, Instant created
 
 Help me develop a JPA repository in Spring Boot and Java 21 and follow the below instructions:
 
-1. Write the code as your are senior software engineer who experts in Java and Spring boot with 20 years experienccce using the best practices and principles.
+1. Write the code as your are senior software engineer who experts in Java and Spring boot with 20 years experience following the best practices and principles.
 2. Use Lombok.
 3. Use YML on properties
 4. Use H2 database
