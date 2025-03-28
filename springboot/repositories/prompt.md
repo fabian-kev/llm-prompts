@@ -28,10 +28,10 @@ Help me develop a JPA repository in Spring Boot and Java 21 and follow the below
 
 I want further development to add unit testing
 
-1. Add DataJpa testing and cover all possible scenarios
-2. Follow this unit test method naming convention <methodName>\_given<>\_then<> for example: on `DefaultActivityRepository`.save then it would be save_givenValidRecord_thenShouldSave
-3. Use Mockito on assertions and use AssertJ for complex assertions like asserting a list
+1. Cover all possible scenarios: all happy paths and sad paths.
+2. Follow this unit test method naming convention <methodName>\_given<>\_then<> for example: on `DefaultActivityRepository`.save then it would be `save_givenValidRecord_thenShouldSave`.
+3. Use Mockito on assertions and use AssertJ for complex assertions like asserting a list.
 4. Add descriptive message to assertions but be brief and be precise.
-5. Just implement a DataJpaTest on business layer for example `DefaultActivityRepository` and do not create explicit test for `JpaRepository`
+5. Just implement a DataJpaTest on business layer for example `DefaultActivityRepository` and do not create explicit test for `JpaRepository`.
 6. Assert all the possible fields if there are repetitive assertions, make a utility assert method whenever possible.
 7.
